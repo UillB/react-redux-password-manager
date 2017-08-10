@@ -1,0 +1,9 @@
+export const CREATE_USER = 'create.user';
+export const SET_ACTIVE_USER = 'set.active.user';
+export const SIGN_OUT = 'sign.out';
+export const ADD_NEW_PASSWORD = 'add.new.password';
+export const DELETE_PASSWORD = 'delete.new.password';
+export const SET_EDIT_ITEM = 'set.edit.item';
+export const RESET_EDIT_ITEM = 'reset.edit.item';
+export const SET_CURRENT_PASS = 'set.current.pass';
+export const EDIT_PASSWORD = 'edit.password';

@@ -1,0 +1,102 @@
+@import '~antd/dist/antd.css';
+body {
+  margin: 0;
+  padding: 0;
+  .ant-btn {
+    border-radius: 0;
+  }
+  .ant-input {
+    color: black;
+    border-radius: 0;
+    font-size: 15px;
+  }
+  .ant-input-prefix {
+    font-size: 15px;
+  }
+  .anticon-close-circle {
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+    font-size: 12px;
+  }
+  .anticon-close-circle:hover {
+    color: #999;
+  }
+  .anticon-close-circle:active {
+    color: #666;
+  }
+  .ant-alert-error {
+    font-size: 16px;
+  }
+}
+
+.navigation {
+  list-style: none;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  .dashboard {
+    margin-right: auto;
+  }
+  a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: #aaa;
+    font-size: 17px;
+    &:hover {
+      color: #FFF
+    }
+  }
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 30%;
+  .ant-input-affix-wrapper {
+    height: 3em;
+  }
+}
+
+.user-dashboard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2% 30%;
+    .pass-list-edit-input {
+        width: 50%;
+      }
+      .pass-list-edit-btns {
+        width: 50%;
+        .pass-list-edit-btn {
+          width: 50%;
+        }
+      }
+    .pass-list-edit-error {
+      width: 50%;
+    }
+    .password-list-li {
+      width: 50%;
+      .pass-list-pass {
+      font-size: 20px;
+      }
+      .pass-list-btns {
+        display: inline;
+        float: right;
+        .pass-list-btn {
+          border-radius: 50%;
+        }
+        .pass-list-btn-delete {
+          border-radius: 50%;
+        }
+      }
+    }
+    .pass-editor {
+      width: 50%;
+      .pass-editor-btn {
+      width: 100%;
+      }
+    }
+}
