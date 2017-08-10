@@ -2,9 +2,7 @@
 
 React/Redux application that demonstrates ReactJS + Redux + Webpack + Babel;
 
-#View demo:
-
-Click here [https://react-redux-pm.herokuapp.com/] to run application demo.
+# Demo: https://react-redux-pm.herokuapp.com/
 
 ## Requirements
 * Git
