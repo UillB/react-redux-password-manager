@@ -1,6 +1,6 @@
 # ReactJS / Redux Password manager
 
-React/Redux application that demonstrates ReactJS + Redux + Webpack + Babel;
+React/Redux application that demonstrates ReactJS + Redux + Webpack + Babel.
 
 # Demo: https://react-redux-pm.herokuapp.com/
 
